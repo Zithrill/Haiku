@@ -8,7 +8,7 @@ class Config:
     HAIKU_BASE_URL = 'http://www.tempslibres.org/tl/tlphp/'
     HAIKU_URL = HAIKU_BASE_URL + 'dbauteurs.php?lg=e'
 
-    HAIKU_PARTIAL_HREF_REGEX = re.compile('\.php\?auteur.*\&lg=e')
+    HAIKU_PARTIAL_HREF_REGEX = re.compile('dbhk01\.php\?auteur.*\&lg=e')
 
     SOUP_PARSER = 'html5lib'
 

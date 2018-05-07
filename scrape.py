@@ -85,7 +85,7 @@ class Scraper(object):
         # We will start by grabbling a list of all files in the raw folder
         raw_path = cfg.RAW_HAIKU_PATH
         log.info('Looking for raw html files.')
-        raw_files = [f for f in listdir(raw_path) if isfile(join(raw_path, f))]
+        raw_files = [join(raw_path, f) for f in listdir(raw_path) if isfile(join(raw_path, f))]
         log.info('Found {} html files to extract from.'.format(len(raw_files)))
         all_lines = []
 
