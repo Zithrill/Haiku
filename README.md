@@ -14,6 +14,13 @@ Python 3
 
 BeautifulSoup
 
+### Running
+
+The applications start point is in main
+```bash
+./main
+```
+
 ### Notes
 
 The current itteration only runs if the haiku.json file is missing from the resources folder which is generated on first run.
